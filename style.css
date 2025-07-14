@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #ffcdcd;
+    gap: 150px;
+    /* width: 100vw; */
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    margin: 0px 20px;
+
+}
+
+ul li img {
+    height: 15px;
+    width: 15px;
+}
+
+.hero {
+    margin: 0 auto 90px auto;
+    height: 550px;
+    width: 1200px;
+
+    background-image: url("Assets/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: black; */
+    position: relative;
+
+}
+
+.hero-bg-cover {
+    /* margin: 0 auto; */
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+
+}
+
+.hero-header {
+    position: relative;
+}
+
+.hero-header h1 {
+    position: relative;
+    z-index: 1;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    left: 3px;
+
+}
+
+.hero-header h1 :nth-child(2) {
+    color: maroon;
+    margin-top: -30px;
+}
+
+.hero-header h1 :nth-child(3) {
+    /* color: maroon; */
+    margin-top: -30px;
+}
+
+.hero-header p:nth-child(2) {
+    position: absolute;
+    z-index: 1;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+    top: 250px;
+    left: 3px;
+
+}
+
+.hero-header p:nth-child(3) {
+    position: absolute;
+    z-index: 1;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+    top: 263px;
+    left: 3px;
+
+}
+
+.hero-btn {
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 15px;
+    background-color: maroon;
+    color: rgba(255, 255, 255, 0.829);
+    width: 170px;
+    font-size: 21px;
+    height: 45px;
+    border-radius: 7px;
+    border: none;
+
+}
+
+.new-features-title {
+    /* background-color: yellow; */
+    color: maroon;
+    font-family: "poppins", sans-serif;
+    font-size: 22px;
+    /* position: relative; */
+    /* left: 85px; */
+    font-weight: 500;
+    margin: 0 auto;
+    width: 88vw;
+
+}
+
+.card {
+    height: 280px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: solid; */
+    /* background-image: url("https://cdn1.ethoswatches.com/media/catalog/product/cache/f0b79ae043f96db23a7b71063265844a/h/-/h-moser-cie-pioneer-3811-1203.jpg");
+    background-size: cover;
+    background-position: center; */
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    /* object-position: center; */
+}
+
+.new-features {
+    height: 365px;
+    width: 1200px;
+    margin: 0 auto 90px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items:center;
+    gap: 0px 5px;
+
+}
+
+.card p {
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+}
+
+.card p:nth-child(2) {
+    margin-top: 5px;
+}
+
+.best-salers {
+    height: 365px;
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 0px 5px;
+
+}
+
+.best-salers-title {
+    color: maroon;
+    font-family: "poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 88vw;
+
+}
